@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="RestAssured Testing">
+
+ <!--   <test name="Read User test">
+        <classes>
+            <class name="apitest.tests.ReadAllUsersTest"/>
+        </classes>
+    </test>
+
+    <test name="Attach String in allure report">
+        <classes>
+            <class name="allureattachmenttests.StringAttachTest"/>
+        </classes>
+    </test>
+    <test name="Attach text file in allure report">
+        <classes>
+            <class name="allureattachmenttests.TextFileAttachTest"/>
+        </classes>
+    </test>
+    <test name="Attach image file in allure report">
+        <classes>
+            <class name="allureattachmenttests.ImageAttachTest"/>
+        </classes>
+    </test>-->
+
+    <test name="SOAP api test -countrycode">
+        <classes>
+            <class name="soaptest.CountryCodeSoapApiTest"/>
+        </classes>
+    </test>
+    <test name="SOAP api test - calculator">
+        <classes>
+            <class name="soaptest.CalculatorSoapApiTest"/>
+        </classes>
+    </test>
+    <test name="SOAP api test - numtotext">
+        <classes>
+            <class name="soaptest.NumToTextSoapApiTest"/>
+        </classes>
+    </test>
+</suite>
