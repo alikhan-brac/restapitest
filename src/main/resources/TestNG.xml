@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
 <suite name="RestAssured Testing">
 
- <!--   <test name="Read User test">
+    <test name="Read User test">
         <classes>
             <class name="apitest.tests.ReadAllUsersTest"/>
         </classes>
@@ -21,7 +21,7 @@
         <classes>
             <class name="allureattachmenttests.ImageAttachTest"/>
         </classes>
-    </test>-->
+    </test>
 
     <test name="SOAP api test -countrycode">
         <classes>

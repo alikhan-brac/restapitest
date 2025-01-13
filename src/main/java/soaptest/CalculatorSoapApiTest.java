@@ -6,11 +6,10 @@ import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
 
 import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasItem;
 
 public class CalculatorSoapApiTest {
 
-    @Test
+    @Test(description = "Calculator SOAP API test")
     public void calculatorTest() {
         String endpoint = "http://www.dneonline.com/calculator.asmx";
         int firstNum = 2;

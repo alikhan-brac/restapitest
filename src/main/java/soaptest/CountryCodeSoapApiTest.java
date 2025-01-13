@@ -10,7 +10,7 @@ import org.slf4j.LoggerFactory;
 public class CountryCodeSoapApiTest {
     private static final Logger logger = LoggerFactory.getLogger(CountryCodeSoapApiTest.class);
 
-    @Test
+    @Test(description = "Country code SOAP API test")
     public void testCapitalCity() {
         // Define the SOAP API endpoint
         String soapEndpoint = "http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso";

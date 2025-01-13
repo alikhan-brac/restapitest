@@ -1,18 +1,15 @@
 package soaptest;
 
 import io.restassured.RestAssured;
-import io.restassured.http.ContentType;
 import io.restassured.response.ValidatableResponse;
 import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
-
-import java.nio.charset.StandardCharsets;
 
 import static org.hamcrest.Matchers.equalTo;
 
 public class NumToTextSoapApiTest {
 
-    @Test
+    @Test(description = "Number to word SOAP API test")
     public void numToTextApiTest() {
         String soapEndpoint = "https://www.dataaccess.com/webservicesserver/NumberConversion.wso";
         int numberToConvert = 5;
